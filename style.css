@@ -1,0 +1,1010 @@
+body{height: 100vh;}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8ma9t7');
+  src:  url('fonts/icomoon.eot?8ma9t7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8ma9t7') format('truetype'),
+    url('fonts/icomoon.woff?8ma9t7') format('woff'),
+    url('fonts/icomoon.svg?8ma9t7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accessible-icon:before {
+  content: "\e900";
+}
+.icon-accusoft:before {
+  content: "\e901";
+}
+.icon-adversal:before {
+  content: "\e902";
+}
+.icon-amazon:before {
+  content: "\e903";
+}
+.icon-amazon-pay:before {
+  content: "\e904";
+}
+.icon-amilia:before {
+  content: "\e905";
+}
+.icon-android:before {
+  content: "\e906";
+}
+.icon-apple:before {
+  content: "\e907";
+}
+.icon-apple-pay:before {
+  content: "\e908";
+}
+.icon-app-store-ios:before {
+  content: "\e909";
+}
+.icon-artstation:before {
+  content: "\e90a";
+}
+.icon-asymmetrik:before {
+  content: "\e90b";
+}
+.icon-atlassian:before {
+  content: "\e90c";
+}
+.icon-audible:before {
+  content: "\e90d";
+}
+.icon-autoprefixer:before {
+  content: "\e90e";
+}
+.icon-aws:before {
+  content: "\e90f";
+}
+.icon-battle-net:before {
+  content: "\e910";
+}
+.icon-behance:before {
+  content: "\e911";
+}
+.icon-behance-square:before {
+  content: "\e912";
+}
+.icon-bimobject:before {
+  content: "\e913";
+}
+.icon-bluetooth:before {
+  content: "\e914";
+}
+.icon-bluetooth-b:before {
+  content: "\e915";
+}
+.icon-bootstrap:before {
+  content: "\e916";
+}
+.icon-btc:before {
+  content: "\e917";
+}
+.icon-buysellads:before {
+  content: "\e918";
+}
+.icon-canadian-maple-leaf:before {
+  content: "\e919";
+}
+.icon-cc-amazon-pay:before {
+  content: "\e91a";
+}
+.icon-cc-apple-pay:before {
+  content: "\e91b";
+}
+.icon-cc-visa:before {
+  content: "\e91c";
+}
+.icon-chrome:before {
+  content: "\e91d";
+}
+.icon-chromecast:before {
+  content: "\e91e";
+}
+.icon-cloudflare:before {
+  content: "\e91f";
+}
+.icon-creative-commons-by:before {
+  content: "\e920";
+}
+.icon-creative-commons-nc:before {
+  content: "\e921";
+}
+.icon-creative-commons-nc-eu:before {
+  content: "\e922";
+}
+.icon-creative-commons-nc-jp:before {
+  content: "\e923";
+}
+.icon-creative-commons-nd:before {
+  content: "\e924";
+}
+.icon-creative-commons-pd-alt:before {
+  content: "\e925";
+}
+.icon-creative-commons-share:before {
+  content: "\e926";
+}
+.icon-css3:before {
+  content: "\e927";
+}
+.icon-css3-alt:before {
+  content: "\e928";
+}
+.icon-dev:before {
+  content: "\e929";
+}
+.icon-dribbble:before {
+  content: "\e92a";
+}
+.icon-dribbble-square:before {
+  content: "\e92b";
+}
+.icon-envira:before {
+  content: "\e92c";
+}
+.icon-erlang:before {
+  content: "\e92d";
+}
+.icon-etsy:before {
+  content: "\e92e";
+}
+.icon-expeditedssl:before {
+  content: "\e92f";
+}
+.icon-facebook:before {
+  content: "\e930";
+}
+.icon-facebook-f:before {
+  content: "\e931";
+}
+.icon-facebook-messenger:before {
+  content: "\e932";
+}
+.icon-facebook-square:before {
+  content: "\e933";
+}
+.icon-fedora:before {
+  content: "\e934";
+}
+.icon-firefox:before {
+  content: "\e935";
+}
+.icon-firefox-browser:before {
+  content: "\e936";
+}
+.icon-flickr:before {
+  content: "\e937";
+}
+.icon-font-awesome:before {
+  content: "\e938";
+}
+.icon-font-awesome-alt:before {
+  content: "\e939";
+}
+.icon-font-awesome-flag:before {
+  content: "\e93a";
+}
+.icon-font-awesome-logo-full:before {
+  content: "\e93b";
+}
+.icon-get-pocket:before {
+  content: "\e93c";
+}
+.icon-gg:before {
+  content: "\e93d";
+}
+.icon-gg-circle:before {
+  content: "\e93e";
+}
+.icon-git:before {
+  content: "\e93f";
+}
+.icon-glide-g:before {
+  content: "\e940";
+}
+.icon-gofore:before {
+  content: "\e941";
+}
+.icon-goodreads-g:before {
+  content: "\e942";
+}
+.icon-google:before {
+  content: "\e943";
+}
+.icon-google-drive:before {
+  content: "\e944";
+}
+.icon-google-pay:before {
+  content: "\e945";
+}
+.icon-google-play:before {
+  content: "\e946";
+}
+.icon-google-plus:before {
+  content: "\e947";
+}
+.icon-google-plus-g:before {
+  content: "\e948";
+}
+.icon-google-plus-square:before {
+  content: "\e949";
+}
+.icon-gripfire:before {
+  content: "\e94a";
+}
+.icon-guilded:before {
+  content: "\e94b";
+}
+.icon-hacker-news:before {
+  content: "\e94c";
+}
+.icon-hackerrank:before {
+  content: "\e94d";
+}
+.icon-html5:before {
+  content: "\e94e";
+}
+.icon-hubspot:before {
+  content: "\e94f";
+}
+.icon-imdb:before {
+  content: "\e950";
+}
+.icon-innosoft:before {
+  content: "\e951";
+}
+.icon-instagram:before {
+  content: "\e952";
+}
+.icon-instagram-square:before {
+  content: "\e953";
+}
+.icon-instalod:before {
+  content: "\e954";
+}
+.icon-internet-explorer:before {
+  content: "\e955";
+}
+.icon-invision:before {
+  content: "\e956";
+}
+.icon-itunes:before {
+  content: "\e957";
+}
+.icon-itunes-note:before {
+  content: "\e958";
+}
+.icon-java:before {
+  content: "\e959";
+}
+.icon-jsfiddle:before {
+  content: "\e95a";
+}
+.icon-js-square:before {
+  content: "\e95b";
+}
+.icon-linkedin:before {
+  content: "\e95c";
+}
+.icon-linkedin-in:before {
+  content: "\e95d";
+}
+.icon-linux:before {
+  content: "\e95e";
+}
+.icon-microsoft:before {
+  content: "\e95f";
+}
+.icon-mixcloud:before {
+  content: "\e960";
+}
+.icon-node:before {
+  content: "\e961";
+}
+.icon-node-js:before {
+  content: "\e962";
+}
+.icon-nutritionix:before {
+  content: "\e963";
+}
+.icon-octopus-deploy:before {
+  content: "\e964";
+}
+.icon-penny-arcade:before {
+  content: "\e965";
+}
+.icon-periscope:before {
+  content: "\e966";
+}
+.icon-phoenix-framework:before {
+  content: "\e967";
+}
+.icon-php:before {
+  content: "\e968";
+}
+.icon-pinterest-p:before {
+  content: "\e969";
+}
+.icon-pinterest-square:before {
+  content: "\e96a";
+}
+.icon-react:before {
+  content: "\e96b";
+}
+.icon-safari:before {
+  content: "\e96c";
+}
+.icon-searchengin:before {
+  content: "\e96d";
+}
+.icon-sellsy:before {
+  content: "\e96e";
+}
+.icon-sistrix:before {
+  content: "\e96f";
+}
+.icon-telegram:before {
+  content: "\e970";
+}
+.icon-telegram-plane:before {
+  content: "\e971";
+}
+.icon-tiktok:before {
+  content: "\e972";
+}
+.icon-tumblr:before {
+  content: "\e973";
+}
+.icon-tumblr-square:before {
+  content: "\e974";
+}
+.icon-twitter:before {
+  content: "\e975";
+}
+.icon-twitter-square:before {
+  content: "\e976";
+}
+.icon-viber:before {
+  content: "\e977";
+}
+.icon-vimeo-square:before {
+  content: "\e978";
+}
+.icon-weebly:before {
+  content: "\e979";
+}
+.icon-whatsapp:before {
+  content: "\e97a";
+}
+.icon-whatsapp-square:before {
+  content: "\e97b";
+}
+.icon-wikipedia-w:before {
+  content: "\e97c";
+}
+.icon-yoast:before {
+  content: "\e97d";
+}
+.icon-youtube:before {
+  content: "\e97e";
+}
+.icon-youtube-square:before {
+  content: "\e97f";
+}
+
+/* ===========================
+Common CSS
+============================== */
+
+body{
+  color:#666666 ;
+  font-size:16px ;
+  font-family:Georgia, sans-serif ;
+  font-weight:normal ;
+  line-height: 1.5em;
+}
+
+.container{
+  margin: 0 auto;
+  width: 96%;
+  max-width: 960px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.aligenleft{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.aligenright{
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.aligencenter{
+ display: block;
+ margin: 0 auto 15px;
+}
+
+/* ===========================
+Top Header CSS
+============================== */
+
+.header_area{
+  width: 100%;
+  clear: both;
+}
+#top_header_area{
+  background: #ba2e1f;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.inner_top_header{
+  overflow: hidden;
+}
+.mini_menu{
+  width: 70%;
+  float: left;
+  padding-top: 5PX;
+}
+.mini_menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.mini_menu ul li{
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.mini_menu ul li::after{
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 1px;
+  height: 12px;
+  top: 6px;
+  right: -10px;
+
+}
+.mini_menu ul li:last-child::after{
+  display: none;
+}
+.mini_menu ul li a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size:14px ;
+}
+.mini_menu ul li a:hover{
+  color: #ddd;
+}
+.search_area{
+  width: 30%;
+  float: right;
+}
+.search_area form{
+  width: 96%;
+  padding: 2%;
+  max-width: 210px;
+  float: right;
+  border-radius: 25px;
+  background: #fff;
+}
+.search_area input{
+  border: 0px solid;
+  width: 75%;
+  padding: 1%;
+  float: left;
+  color: #000;
+}
+.search_area input[type="submit"]{
+  background: url(Image/Search.png)
+  no-repeat right;
+  width: 23%;
+  float: right;
+  cursor: pointer;
+}
+
+/* ===========================
+Main Header CSS
+==============================*/
+
+#main_header{
+  width: 100%;
+  clear: both;
+}
+.inner_header{
+  overflow: hidden;
+  padding: 40px 0;
+}
+.logo_area{
+  width: 240px;
+  float: left;
+}
+.social_area{
+  width: 100%;
+  max-width: 600px;
+  padding-top: 25px;
+  float: right;
+}
+.social_area ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.social_area ul li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.social_area ul li a{
+  text-decoration: none;
+  display: block;
+}
+.social_area ul li a span{
+  background: #666666;
+  color: #fff;
+  width: 35px;
+  height: 25px;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 8px;
+  transition: .5s;
+}
+.social_area ul li a:hover span{
+  background: #ba2e1f;
+}
+.social_area li a:hover span.icon-linkedin-in{
+  background: #0076B2;
+ }
+ .social_area li a:hover span.icon-twitter{
+  background: #55ACEE;
+ }
+ .social_area li a:hover span.icon-pinterest-p{
+  background: #EA3A39;
+ }
+ .social_area li a:hover span.icon-google-plus-g{
+  background: #DC4B3E;
+ }
+ .social_area li a:hover span.icon-firefox-browser{
+  background: #F74E19;
+ }
+
+/* ===========================
+Main menu CSS
+==============================*/
+#main_menu{
+  width: 100%;
+  clear: both;
+}
+.inner_menu{
+background:#333333 ;
+padding:15px 0 ;
+border-radius: 10px;
+min-height: 30px;
+position: relative;
+z-index: 1;
+}
+.inner_menu::after{
+background: #2b2b2b; ;
+position: absolute;
+content: '';
+width: 100%;
+height: 50%;
+bottom: 0;
+left: 0;
+z-index: -1;
+}
+#main_menu ul{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+}
+#main_menu ul li{
+display: inline-block;
+margin: 0 5px;
+position: relative;
+}
+#main_menu ul li a{
+color: #fff;
+text-decoration: none;
+display: block;
+padding: 5px;
+
+}
+#main_menu ul li a:hover{
+color: #ba2e1f;
+}
+#main_menu ul li:hover a{
+color: #ba2e1f;
+}
+#main_menu ul li:hover ul li a{
+color: #fff;
+}
+
+/* 
+==========================================
+Dropdown Menu CSS
+==========================================
+*/
+#main_menu ul ul{
+  position: absolute;
+  background: #ba2e1f;
+  left: -5555px;
+  top: 33px;
+  width: 180px;
+  }
+#main_menu ul li:hover ul{
+  left: 0;
+  }
+#main_menu ul li:hover ul ul{
+  left: -5555px;
+  }
+  #main_menu ul ul ul{
+    top: 0;
+    left: -555px;
+   }
+#main_menu ul li:hover ul li:hover ul{
+  left: 180px;
+  }
+  #main_menu ul ul li{
+    margin: 0 ;
+ display: block;
+    }
+#main_menu ul ul li:hover a{
+background: #333333;
+color: #fff;
+}
+#main_menu ul ul li:hover ul li a{
+background: none;
+color: #fff;
+}
+#main_menu ul ul li ul li a:hover{
+background: #333333;
+color: #fff;
+}
+
+/* ===========================
+Slider CSS
+==============================*/
+#slider_area{
+  margin-top: 20px;
+}
+
+.inner_slder{
+  overflow: hidden;
+}
+.item{
+  width: 100%;
+  position: relative;
+}
+.slider_caption{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+
+h1{
+  color: #fff;
+  font-size: 2.5em;
+}
+
+/* ===========================
+Hero Area CSS
+==============================*/
+
+#hero_area{
+  background: #fff;
+  margin: 0;
+  padding: 0;
+ }
+ .inner_hero{
+   overflow: hidden;
+ }
+ .inner_hero h2{
+   color: #000; 
+   font-size:86px ;
+   line-height: 1em;
+   font-family:Georgia, sans-serif ;
+   font-weight:normal ;
+ }
+ .inner_hero p{
+   color: #666; 
+   font-size:16px ;
+   font-family:Georgia, sans-serif ;
+   font-weight:normal ;
+ }
+ .inner_hero a{
+   float: right;
+   color: #ba2e1f; 
+   font-size:16px ;
+   font-family:Georgia, sans-serif ;
+   font-weight:normal ;
+   text-decoration: none;
+   text-transform:uppercase ;
+   cursor: pointer;
+ }
+ .inner_hero a:hover{
+ color: #000;
+ }
+
+/* ===========================
+Work Area CSS
+==============================*/
+#work_area{
+  background: #f2f2f2;
+  padding: 45px 0;
+}
+.inner_work{
+  overflow: hidden;
+}
+.child_work{
+  width: 32%;
+  margin: 0 1% 10px;
+  float: left;
+}
+.child_work h2{
+  color:#333333 ;
+  font-size: 26px;
+  font-weight: normal;
+}
+.child_work p{
+  color:#878787 ;
+  font-size: 14px;
+}
+.child_work a{
+  color: #ba2e1f;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+.child_work a:hover{
+  color: #000;
+}
+.about_area{
+  margin-left: 0;
+}
+.about_area img{
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+.service_area{}
+.child_service{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.child_service .image_service{
+  width: 25%;
+  float: left;
+}
+.child_service .text_service{
+  width: 75%;
+  float: right;
+}
+.child_service .text_service h3{
+  color:#878787 ;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.child_service .text_service p{
+  margin-top: 0;
+  line-height: 1.3em;
+}
+.client_area{
+  margin-right: 0;
+}
+.child_client{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.child_client h3{
+  color: #878787;
+  font-size: 16px;
+  font-weight: bold;
+  background: url(Image/comment.png)
+  no-repeat left;
+  padding:  15px 0 15px 65px;
+}
+.child_client h3 span{
+  font-weight: normal;
+}
+
+/* ===========================
+Footer Area CSS
+==============================*/
+
+#footer_area{
+  background:#ffffff ;
+  padding: 45px 0;
+}
+.inner_footer{
+  overflow: hidden;
+}
+.child_footer{
+  padding: 1%;
+  margin: 0 1% 10px;
+  width: 21%;
+  float: left;
+}
+.child_footer h3{
+  border-top: 1px solid #666666;
+  color: #666666;
+  font-size:16px ;
+  margin-top: 0;
+  padding-top: 5px;
+}
+.child_footer h4{
+  color: #666666;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.child_footer h4 a{
+  text-decoration: none;
+  color: #666666;
+  float: none;
+}
+.child_footer h4 a:hover{
+  color: #b92d1f;
+}
+.child_footer h6{
+  font-size: 12px;
+  margin: 0 0 10px;
+  line-height: 1.3em;
+}
+.child_footer p{
+  color:#666666 ;
+  font-size: 14px;
+  margin-top: 0;
+}
+.child_footer p a{
+  color: #b92d1f;
+  text-decoration: none;
+}
+.child_blog{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.child_blog a{
+  color: #ba2e1f;
+  text-decoration: none;
+  font-size: 14px;
+  float: right;
+}
+.child_blog a:hover{
+  color: #000;
+}
+.child_footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.child_footer ul ul{
+  display: none;
+}
+.child_footer ul li{
+  background: url(Image/text_icon.png)
+  no-repeat center left;
+  display: block;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+.child_footer ul li a{
+  color: #666666;
+  text-decoration: none;
+}
+.child_footer ul li a:hover{
+  color: #b92d1f;
+}
+.child_footer input{
+  background: #f2f2f2;
+  border: 0px solid;
+  padding: 10px 5%;
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.child_footer textarea{
+  background: #f2f2f2;
+  border: 0px solid;
+  padding: 10px 5%;
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  min-height: 100px;
+}
+.child_footer input[type="submit"]{
+  color: #ba2e1f;
+  font-size: 14px;
+  width: 80px;
+  transition: .5s;
+}
+.child_footer input[type="submit"]:hover{
+  background: #ba2e1f;
+  color: #fff;
+}
+
+/* ===========================
+Copyright Area CSS
+==============================*/
+#copyright_area{
+  background: #f2f2f2;
+  padding: 20px;
+}
+.inner_copyright{
+  overflow: hidden;
+}
+.inner_copyright p{
+  color: #919191;
+  font-size: 12px;
+}
+.left_copyright{
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+.right_copyright{
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
